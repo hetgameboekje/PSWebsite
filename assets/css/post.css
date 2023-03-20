@@ -1,0 +1,27 @@
+body {
+    background-color: #0B132B;
+    opacity: 1;
+    background-image:  radial-gradient(#3A506B 1px, transparent 1px), radial-gradient(#3A506B 1px, #0B132B 1px);
+    background-size: 40px 40px;
+    background-position: 0 0,20px 20px;
+    
+}
+figure
+{
+    background-color: rgb(15, 62, 65);
+    display: inline-block;
+    border-radius: 10px;
+    width: 450px;
+    margin:10px;
+
+}
+figcaption {
+    color:white;
+}
+img{
+    width: 450px;
+    position: relative;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
