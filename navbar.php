@@ -11,21 +11,12 @@
     
     <div class="navbar">
         <ul>
-            <li>
-                Test
-            </li>
-            <li>
-                Test
-            </li>
-            <li>
-                Test
-            </li>
-            <li>
-                Test
-            </li>
-        </ul>
+            <li><a class="active" href="#home">Home</a></li>
+            <li><a href="#news">News</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#about">About</a></li>
+          </ul>
     </div>
-    <h1>Hello world it works!</h1>
 </iframe>
 </body>
 </html>

@@ -1,24 +1,25 @@
-.navbar{
-    background-color: green;
-    border-radius: 10px;
-    border-style: solid;
-    border-width: 10px;
-    border-color: green;
-    box-shadow: 10px 10px 5px #aaaaaa;
-    width: 50% ;
-    height: auto;
-    margin:auto;
-    text-align: center;
-
-}   
-
 .navbar ul {
-    list-style-type:none;
-    margin:10px;
-    padding:10px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #243010;
+    box-shadow: 5px 5px #2a3c2471;
+    border-radius: 10px;
 }
-.navbar li {
-    float:left;
-    margin:10px;
 
+.navbar li {
+    float: left;
+}
+
+.navbar li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navbar li a:hover {
+    background-color: #111;
 }
