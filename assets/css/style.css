@@ -3,13 +3,15 @@
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #243010;
-    box-shadow: 5px 5px #2a3c2471;
+    background-color: #F3E8EE;
+    box-shadow: 5px 5px #554d4b;
     border-radius: 10px;
+    
 }
 
 .navbar li {
-    float: left;
+    float:left;
+    color:black;
 }
 
 .navbar li a {
@@ -18,8 +20,9 @@
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    color:black;
 }
 
 .navbar li a:hover {
-    background-color: #111;
+    background-color: #BFACB5;
 }
