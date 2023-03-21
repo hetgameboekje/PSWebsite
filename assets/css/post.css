@@ -6,22 +6,34 @@ body {
     background-position: 0 0,20px 20px;
     
 }
-figure
-{
-    background-color: rgb(15, 62, 65);
-    display: inline-block;
-    border-radius: 10px;
-    width: 450px;
-    margin:10px;
 
-}
 figcaption {
     color:white;
-}
-img{
-    width: 450px;
-    position: relative;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
+    padding:10px;
+    
 }
 
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  figure {
+    /* Remove "display: inline-block;" */
+    /* Add "flex: 0 0 450px;" to fix the width */
+    flex: 0 0 450px;
+    background-color: rgb(15, 62, 65);
+    border-radius: 10px;
+    margin: 10px;
+  }
+  
+  /* Remove the width property from img */
+  img {
+    width: 100%;
+    /* Add "height: auto;" to maintain aspect ratio */
+    height: auto;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+  
