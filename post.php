@@ -24,7 +24,7 @@ include_once "navbar.php";
 <?php
 $title = "Hello this is a text of how long i can strecht this text";
 $description = "This is another test but i know i can strecht this very good long bear with me though this is a affiliiateee marketing";
-$link = "https://google.com";
+$link = "https://bergthaler-ict.nl";
 $img_path = "assets/css/img/photo.png";
 
 
@@ -34,7 +34,7 @@ $img_path = "assets/css/img/photo.png";
 
 <div class="container">
   <?php
-  for ($x = 0; $x <= 100; $x += 1) {
+  for ($x = 0; $x <= 500; $x += 1) {
     echo "<figure>";
     echo "<img src='" . $img_path . "'></img>";
     echo "<figcaption>" . "<h1>" . $title . "</h1>" . "<p>" . $description . "</p>" . $x .  "</figcaption>";
