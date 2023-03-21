@@ -37,3 +37,6 @@ figcaption {
     border-top-right-radius: 10px;
   }
   
+.centerUrlLink{
+  text-align: center;
+}

@@ -22,8 +22,9 @@ include_once "navbar.php";
 
 </html>
 <?php
-$title = "Hello";
-$description = "This is another test";
+$title = "Hello this is a text of how long i can strecht this text";
+$description = "This is another test but i know i can strecht this very good long bear with me though this is a affiliiateee marketing";
+$link = "https://google.com";
 $img_path = "assets/css/img/photo.png";
 
 
@@ -37,6 +38,7 @@ $img_path = "assets/css/img/photo.png";
     echo "<figure>";
     echo "<img src='" . $img_path . "'></img>";
     echo "<figcaption>" . "<h1>" . $title . "</h1>" . "<p>" . $description . "</p>" . $x .  "</figcaption>";
+    echo "<div class='centerUrlLink'><a href='".$link . "'>Click me </a></div>" ;
     echo "</figure>";
   }
   ?>
